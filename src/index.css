@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* fluid typography ---------------------------------- */
+:root {
+  --desktop-font-size: 24;
+  --mobile-font-size: 16;
+  --color-primary: #00a3cc;
+  --color-dark: #006680;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Kollektif";
+  src: url(/fonts/kollektif/Kollektif.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Kollektif-Bold";
+  src: url(/fonts/kollektif/Kollektif-Bold.ttf);
+}
+
+body {
+  font-size: calc(var(--mobile-font-size) * 1px);
+}
+@media screen and (min-width: 320px) {
+  body {
+    font-size: calc(
+      (var(--mobile-font-size) * 1px) +
+        (var(--desktop-font-size) - var(--mobile-font-size)) *
+        ((100vw - 320px) / (1920 - 320))
+    );
+  }
+}
+@media screen and (min-width: 1920px) {
+  body {
+    font-size: calc(var(--desktop-font-size) * 1px);
+  }
+}
+/* ---------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  background-color: #f3f3f3;
+  position: relative;
+  scroll-behavior: smooth;
+}
+.container {
+  outline: 1px dashed blue;
+  max-width: 1024px;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  margin: auto;
+  position: relative;
 }

@@ -1,0 +1,64 @@
+.header {
+  background: white;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  z-index: 9999;
+  box-shadow: 0px 1px 5px 1px rgba(150, 150, 150, 0.322);
+}
+
+.headerLogo {
+  font-family: "Kollektif-bold";
+  color: var(--color-dark);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.items {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__burger {
+  background: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.header__burger::before,
+.header__burger::after {
+  content: "";
+  width: 32px;
+  height: 2px;
+  display: block;
+  position: absolute;
+}
+.header__burger--open::before,
+.header__burger--open::after {
+  background: black;
+}
+.header__burger--open::before {
+  top: 8px;
+}
+.header__burger--open::after {
+  bottom: 8px;
+}
+
+.menuItem {
+  padding: 12px;
+  font-family: "Kollektif";
+  color: var(--color-dark);
+}
+
+.menuItem:hover {
+  color: var(--color-primary);
+}

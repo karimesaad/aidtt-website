@@ -1,0 +1,29 @@
+.container {
+  width: 70%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-family: "Kollektif";
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.root {
+  margin: 0 auto 3rem auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  padding-left: 1rem;
+}
