@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/aidtt-website/static/css/main.162e9998.chunk.css",
+    "main.js": "/aidtt-website/static/js/main.36b91c63.chunk.js",
+    "main.js.map": "/aidtt-website/static/js/main.36b91c63.chunk.js.map",
+    "runtime-main.js": "/aidtt-website/static/js/runtime-main.5029bce7.js",
+    "runtime-main.js.map": "/aidtt-website/static/js/runtime-main.5029bce7.js.map",
+    "static/css/2.fc5a9450.chunk.css": "/aidtt-website/static/css/2.fc5a9450.chunk.css",
+    "static/js/2.62b7e8d4.chunk.js": "/aidtt-website/static/js/2.62b7e8d4.chunk.js",
+    "static/js/2.62b7e8d4.chunk.js.map": "/aidtt-website/static/js/2.62b7e8d4.chunk.js.map",
+    "index.html": "/aidtt-website/index.html",
+    "precache-manifest.2152abc7dd16153b4bce60c59d4fb9bb.js": "/aidtt-website/precache-manifest.2152abc7dd16153b4bce60c59d4fb9bb.js",
+    "service-worker.js": "/aidtt-website/service-worker.js",
+    "static/css/2.fc5a9450.chunk.css.map": "/aidtt-website/static/css/2.fc5a9450.chunk.css.map",
+    "static/css/main.162e9998.chunk.css.map": "/aidtt-website/static/css/main.162e9998.chunk.css.map",
+    "static/js/2.62b7e8d4.chunk.js.LICENSE.txt": "/aidtt-website/static/js/2.62b7e8d4.chunk.js.LICENSE.txt",
+    "static/media/arrow-down.svg": "/aidtt-website/static/media/arrow-down.d4611b4e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5029bce7.js",
+    "static/css/2.fc5a9450.chunk.css",
+    "static/js/2.62b7e8d4.chunk.js",
+    "static/css/main.162e9998.chunk.css",
+    "static/js/main.36b91c63.chunk.js"
+  ]
+}
